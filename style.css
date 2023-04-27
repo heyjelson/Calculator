@@ -1,0 +1,65 @@
+/*Styling Calculator Project*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#6495ed;
+}
+
+h1, footer {
+    color: #ffffff;
+    text-align: center;
+}
+
+.wrapper {
+    width: 300px;
+    background-color: #faebd7;
+    margin: 12px auto;
+}
+
+  .wrapper .display {
+    width: inherit;
+    height: 60px;
+    background-color: #ffffff;
+    border-top: 8px solid #faebd7;
+  }
+
+  .wrapper .display .prev, .curr {
+    padding: 5px;
+    text-align: end;
+  }
+
+  .wrapper .display .prev {
+    font-size: 12px;
+  }
+
+  .wrapper .display .curr {
+    font-weight: 700;
+  }
+
+  .wrapper .clr, .del {
+    display: inline-block;
+    width: 146px;
+    height: 55px;
+    margin: 8px 0 8px 1px;
+    border: none;
+    background-color: #696969;
+  }
+  .wrapper .num, .opr, .pnt, .sum {
+    display: inline-block;
+    width: 70px;
+    height: 55px;
+    margin: 0 0 8px 1px;
+    border: none;
+    background-color: #696969;
+  }
+  .wrapper .num {
+    color: #ffffff;
+  }
+  .wrapper .sum {
+    background-color: #6495ed;
+  }
